@@ -1,0 +1,50 @@
+body {
+	font-family: DejaVu Sans;
+	text-align: center;
+	background-image: url('../images/altiplano.jpg');
+	margin: 0px;
+}
+div.main {
+	margin-top: 20px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 15px;
+	border: 5px #9E451D;
+	background-color: #659DA2;
+}
+ul.navigation {
+	overflow: hidden;
+	padding: 0px;
+	background-color: #9B8C77;
+}
+ul.navigation li {
+	padding: 5px;
+	display: block;
+	margin: 5px;
+	float: left;
+}
+ul.navigation li.current a{
+	color: #9E451D;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul.navigation a {
+	text-decoration: none;
+	color: black;
+}
+div.imagecontainer {
+	text-align: center;
+}
+.accordian-thumbnail {
+	height: 40px;
+	padding-right: 10px;
+}
+.bexface-thumbnail {
+	height: 400px;
+}

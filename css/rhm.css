@@ -1,0 +1,54 @@
+body {
+	font-family: DejaVu Sans;
+	text-align: center;
+	background-image: #D8D0AB;
+	margin: 0px;
+}
+div.main {
+	margin-top: 20px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 15px;
+	border: 5px #9E451D;
+	background-color: #010A19;
+	color: white;
+}
+ul.navigation {
+	overflow: hidden;
+	padding: 0px;
+	background-color: #382D20;
+}
+ul.navigation li {
+	padding: 5px;
+	display: block;
+	margin: 5px;
+	float: left;
+}
+ul.navigation li.current a{
+	color: #654116;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul.navigation a {
+	text-decoration: none;
+	color: white;
+}
+div.imagecontainer {
+	text-align: center;
+}
+.accordian-thumbnail {
+	height: 40px;
+	padding-right: 10px;
+}
+.bexface-thumbnail {
+	height: 400px;
+}
+.profile-picture {
+	height: 200px:
+}
